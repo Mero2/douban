@@ -1,0 +1,427 @@
+*{
+    margin: 0px;
+    padding:0px;
+    list-style: none;
+    text-decoration: none;
+}
+img{
+    padding:0px;
+    margin: 0px;
+}
+body{
+    line-height: 1.62;
+}
+li {
+    display: inline-block;
+    zoom:1;
+    line-height: 28px;
+    font-size:12px;
+    vertical-align: baseline;
+}
+a{
+    display: inline-block;
+    zoom:1;
+    padding: 0 12px;
+    height:28px;
+}
+label{
+    font-family: Tahoma;
+    vertical-align: middle;
+}
+input {
+    font-size: 12px;
+    margin-right: 3px;
+    vertical-align: middle;
+}
+.top {
+    height: 28px;
+    color:#d5d5d5;
+    background: #545652;
+    min-width:950px;
+    font:12px Helvetica, Arial,sans-serif;
+    line-height:1.62;
+
+}
+.top .left li{
+    float: left;
+}
+
+.top .left a {
+    cursor: pointer;
+    color: #d5d5d5;
+    
+}
+.top .left a:hover{
+    color:#fff;
+}
+.top  .right li{
+    float: right;
+    padding:0 8px;
+    height: 28px;
+}
+.top  .right li:hover{
+    color: #fff;
+}
+.nav {
+    width:100%;
+    min-width: 950px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    background:#f0f3ef;
+}
+.nav .nav-wrap{
+    border-color:#e3e9e2;
+    border-bottom: 1px solid #e5ebe4;
+}
+.nav-primary{
+    width:950px;
+    margin: 0 auto;
+    overflow: visible !important;
+    position: relative;
+    padding: 10px 0 5px;
+    zoom:1;
+}
+.nav .nav-logo{
+    float:left;
+    height: 50px;
+    width: 145px;
+    margin:0 13px 0 0;
+}
+.nav-search{
+    margin-left: 145px;
+    overflow: visible !important;
+    position: relative;
+    zoom: 1;
+    padding:10px 0 15px 0;
+}
+form{
+    margin: 0px;
+    padding:0px;
+    border:0px;
+}
+ legend {
+    display: none;
+}
+fieldset legend{
+    color:#666;
+    padding:0 5px;
+}
+label{
+    position: absolute;
+    left:11px;
+    top:10px;
+    line-height: 30px;
+    cursor: text;
+    color:#bbb;
+    width:auto;
+}
+#inp-query {
+    background: #fff;
+    margin-top: 8px;
+    width: 500px;
+    height: 26px;
+    padding-left: 10px;
+}
+ .inp-btn input{
+    width:30px;
+    height: 30px;
+    cursor:pointer;
+    position: absolute;
+    left: 526px;
+    top: 18px;
+} 
+.nav-secondary{
+    width:950px;
+    padding-bottom: 0;
+    overflow: hidden;
+    zoom:1;
+    font-size: 13px;    
+}
+.nav-secondary ul{
+    margin: 9px 0;
+}
+.nav-secondary li a{
+    display: inline;
+    margin-right: 15px;
+    color: #666699;
+}
+.content{
+    min-height: 420px;
+    background:#fff;
+    width: 950px;
+    position: relative;
+    left: 50%;
+    margin-left: -475px;
+}
+
+
+.rounpic{
+	position: relative;
+    width: 590px;
+	height: 250px;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.rounpic ul{
+    position:absolute;
+    left: 0px;
+    top:0px;
+    width:2950px;
+    height: 250px;
+}
+.rounpic ul::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.rounpic ul li {
+    float: left;
+    width: 590px;
+    height: 250px;
+
+}
+.rounpic ul li img{
+    width: 590px;
+    height: 250px;
+
+}
+.rounpic ul li a{
+    padding:0px;
+    margin: 0px;
+}
+.btn{
+    position: absolute;		
+    top:50%;
+    margin-top: -10px;
+    width: 0px;
+    height: 0px;
+    border:20px solid transparent;
+    opacity: 0.3;
+}
+.btn:hover{
+    opacity: 1;
+}
+.leftbtn{
+    left: 20px;
+    border-right: 20px solid black;
+    cursor: pointer;
+
+}
+.rightbtn{
+    border-left: 20px solid black;
+    right: 20px;
+    cursor: pointer;
+    
+}
+.sliderIndex{
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    right: 0px;
+    text-align: center;
+}
+.sliderIndex i {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color:#fff;
+    margin:20px;
+    opacity: 0.6;
+}
+.sliderIndex .active{
+    background-color: #138A64;
+    opacity: 0.9;
+}
+
+
+.popular-artists.section{
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.popular-artists.section ul.header{
+    border-bottom: 2px solid #02a682;
+    width:590px;
+    height: 33px;
+}
+.popular-artists.section .header li {
+    display: inline-block;
+    font-size: 16px;
+    color: #222;
+    line-height: 30px;
+    margin: 0px;
+    cursor:pointer;
+}
+.popular-artists .header li.new-artists{
+    font-size: 13px;
+    color:#999;
+}
+.popular-artists{
+    text-align: center;
+    background: #f5f7f8;
+    padding: 15px 0 0 10;
+    width: 590px;
+}
+div.artists{
+    width:630px;
+    text-align: center;
+    background: #f5f7f8;
+    padding: 15px 0 0 10;
+    width: 590px;
+   
+}
+.artist-item{
+    padding: 0;
+    margin-bottom: 10px;
+    border:0;
+    float: left;
+    width: 130px;
+    margin-right: 17px;
+    height: 150px;
+    /* overflow: hidden; */
+}
+
+a.primary-link{
+    display: inline-block;
+    line-height: 100%;
+    margin-top: 5px;
+    font-size: 14px;
+    color:#138a64;
+    position: relative;
+
+    
+
+}
+.fix::after{
+    content: "";
+    clear: both;
+}
+.leftb{
+    position: absolute;
+    left: 600px;
+    top: 0px;
+
+
+}
+.join{
+    width: 312  px;
+    height: 100px;
+    border: 1px solid #fff;
+    margin-top: 10px;
+}
+.join .join-block{
+    float: left;
+    width: 102px;
+    height: 57px;
+    margin-right: 2px;
+    background-color: #F5F7F8;
+    text-align: center;
+   
+}
+.join .join-block h2 a {
+    font-size: 16px;
+    font-weight: bold;
+     line-height: 150%;
+}
+a.primary-link {
+    font-size: 14px;
+    line-height: 14px;
+    color: #138A64;
+}
+.join .join-block p{
+    margin: 0px;
+    font-size: 14px;
+    color: #666;
+    line-height: 100%;
+}
+.join .button{
+    display: inline-block;
+    background-color: #139D72;
+    width: 284px;
+    height: 38px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 38px;
+    margin-top: 3px;
+    border: 1px solid #138a64;
+    border-radius: 3px;
+    opacity: 1;
+}
+.join .button:hover{
+    opacity: 0.7;
+}
+.tag-block{
+    width: 302px;
+    height: 42px;
+    position: absolute;
+    left: 600px;
+    margin-top: -294px;
+}
+.tag-block .tag-header{
+    font-size: 14px;
+    color: #222; 
+}
+.tag-block .tag-more a{
+    position: absolute;
+    font-size: 12px;
+    margin-top: -20px;
+    margin-left: 254px;
+    color: #999;
+    line-height: 22px;
+    float: right;
+}
+.tag-block table tr td{
+    width: 150px;
+    height: 40px;
+    border-top: 1px solid #f8f6f6;
+    border-bottom: 1px solid #f8f6f6;
+    border-right: 1px solid #f8f6f6;
+}
+.tag-block table tr td a{
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    color: #138A64;
+    font-size: 14px;
+    padding-left: 6px;
+}
+.tag-block table tr td:hover{
+    background: #F5F7F8;
+}
+
+#what{
+    position: absolute;
+    left:-381px;
+    top: -497px;
+    width: 500px;
+    height: 290px;
+    /*border: 1px solid black;*/
+    display: none;
+    background: white;
+    overflow: hidden;
+    /*opacity: 0.9;*/
+}
+.nidaye{
+    position: relative;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-bottom: 2px solid whitesmoke;
+    width: 500px;
+    height: 50px;
+    display: block;
+    /*font-size: 25px;*/
+}
+.nierdaye{
+    width: 50px;
+    height: 50px;
+}
+.nisandaye{
+    position: absolute;
+    margin-left: 10px;
+    top: 0;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+}
